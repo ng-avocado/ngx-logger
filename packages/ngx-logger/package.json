@@ -1,0 +1,17 @@
+{
+  "name": "ngx-logger",
+  "version": "1.0.0",
+  "author": "Malindu Warapitiya <warapitiya93@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": ">=6.0.0-rc.5",
+    "@angular/common": ">=6.0.0-rc.5"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    }
+  }
+}
