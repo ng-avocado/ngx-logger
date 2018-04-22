@@ -1,5 +1,5 @@
 {
-  "name": "ngx-logger",
+  "name": "@ng-avocado/ngx-logger",
   "version": "1.0.0",
   "author": "Malindu Warapitiya <warapitiya93@gmail.com>",
   "license": "MIT",
