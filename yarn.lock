@@ -186,6 +186,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@ng-avocado/ngx-logger@./packages/ngx-logger/dist/ng-avocado-ngx-logger-v2.0.0.tgz":
+  version "2.0.0"
+  resolved "./packages/ngx-logger/dist/ng-avocado-ngx-logger-v2.0.0.tgz#d40a502464a3f679dcc9f8f04a36acf44dfcb674"
+  dependencies:
+    tslib "^1.9.0"
+
 "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"

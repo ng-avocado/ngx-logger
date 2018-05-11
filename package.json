@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
     "@angular/service-worker": "^6.0.0",
-    "@ng-avocado/ngx-logger": "./packages/ngx-logger/dist/ng-avocado-ngx-logger-v1.0.2.tgz",
+    "@ng-avocado/ngx-logger": "./packages/ngx-logger/dist/ng-avocado-ngx-logger-v2.0.0.tgz",
     "core-js": "^2.4.1",
     "rxjs": "6.1.0",
     "rxjs-compat": "^6.0.0-rc.0",

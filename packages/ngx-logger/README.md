@@ -42,7 +42,7 @@ export class AppModule {
 
 ## Use it everywhere
 ```ts
-import {NgxLog, NgxLoggerService} from '@ng-avocado/ngx-logger';
+import {NgxLog, NgxLogger} from '@ng-avocado/ngx-logger';
 
 @Component({
   selector: 'app-root',
@@ -51,7 +51,7 @@ import {NgxLog, NgxLoggerService} from '@ng-avocado/ngx-logger';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  log: NgxLog = NgxLoggerService.create('AppComponent');
+  log: NgxLog = NgxLogger.create('AppComponent');
 
   constructor() {
   }

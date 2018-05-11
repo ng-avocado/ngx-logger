@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {NgxLog, NgxLoggerService} from '@ng-avocado/ngx-logger';
+import {NgxLog, NgxLogger} from '@ng-avocado/ngx-logger';
 
 @Component({
   selector: 'app-root',
@@ -8,19 +8,13 @@ import {NgxLog, NgxLoggerService} from '@ng-avocado/ngx-logger';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  log: NgxLog = NgxLoggerService.create('AppComponent');
-  log2: NgxLog = NgxLoggerService.create('AppComponent');
+  log: NgxLog = NgxLogger.create('AppComponent');
 
   constructor() {
   }
 
   ngOnInit(): void {
-    const e = {error: 'Error message'};
-    this.log.info('Hello!');
-    this.log2.info('Hello!');
-    this.log.warn('Hello!', e, e);
-    this.log.error(e.error, e);
+    this.log.info('Yay!, This is cool.');
+    this.log.error('Opps!', new Error('Happy error'));
   }
-
-
 }
