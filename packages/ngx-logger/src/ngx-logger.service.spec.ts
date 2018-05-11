@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { NgxLoggerService } from './ngx-logger.service';
+import { NgxLogger } from './ngx-logger.service';
 
 describe('NgxLoggerService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [NgxLoggerService]
+      providers: [NgxLogger]
     });
   });
 
-  it('should be created', inject([NgxLoggerService], (service: NgxLoggerService) => {
+  it('should be created', inject([NgxLogger], (service: NgxLogger) => {
     expect(service).toBeTruthy();
   }));
 });

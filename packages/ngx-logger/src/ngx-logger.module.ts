@@ -1,6 +1,6 @@
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {NgxLoggerService} from './ngx-logger.service';
+import {NgxLogger} from './ngx-logger.service';
 
 @NgModule({
   imports: [
@@ -17,7 +17,7 @@ export class NgxLoggerModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: NgxLoggerModule,
-      providers: [NgxLoggerService]
+      providers: [NgxLogger]
     };
   }
 
