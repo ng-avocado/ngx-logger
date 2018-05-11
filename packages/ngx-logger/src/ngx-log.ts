@@ -42,19 +42,19 @@ export class NgxLog {
     }
   }
 
-  info(mes: any): void {
-    NgxLog.message(mes, [], this.config.name, this.config.color, 'deepskyblue');
+  info(mes: string, ...params: any[]): void {
+    NgxLog.message(mes, params, this.config.name, this.config.color, 'deepskyblue');
   }
 
-  error(mes: any): void {
-    NgxLog.message(mes, [], this.config.name, this.config.color, 'red');
+  error(mes: string, ...params: any[]): void {
+    NgxLog.message(mes, params, this.config.name, this.config.color, 'red');
   }
 
-  warn(mes: any): void {
-    NgxLog.message(mes, [], this.config.name, this.config.color, 'orange');
+  warn(mes: string, ...params: any[]): void {
+    NgxLog.message(mes, params, this.config.name, this.config.color, 'orange');
   }
 
-  debug(mes: any): void {
-    NgxLog.message(mes, [], this.config.name, this.config.color, 'orange');
+  debug(mes: string, ...params: any[]): void {
+    NgxLog.message(mes, params, this.config.name, this.config.color, 'orange');
   }
 }

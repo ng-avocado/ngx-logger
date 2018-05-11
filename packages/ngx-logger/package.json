@@ -1,6 +1,7 @@
 {
   "name": "@ng-avocado/ngx-logger",
-  "version": "1.0.0",
+  "description": "Creative logger for Angular",
+  "version": "1.0.2",
   "author": "Malindu Warapitiya <warapitiya93@gmail.com>",
   "license": "MIT",
   "private": false,

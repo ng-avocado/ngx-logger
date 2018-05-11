@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 
 
 import {AppComponent} from './app.component';
-import {NgxLoggerModule} from 'ngx-logger';
+import {NgxLoggerModule} from '@ng-avocado/ngx-logger';
 
 
 @NgModule({
